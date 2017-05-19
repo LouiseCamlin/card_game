@@ -1,0 +1,28 @@
+import static org.junit.Assert.assertEquals;
+import org.junit.*;
+
+
+public class CardTest {
+  Card card;
+
+  @Before
+  public void before() {
+    card = new Card(SuitType.HEARTS, ValueType.ONE);
+  }
+
+  @Test
+  public void canGetSuit() {
+    assertEquals(SuitType.HEARTS, card.getSuit());
+    System.out.println(card.getSuit());
+  }
+
+  @Test
+  public void canGetValueType() {
+    assertEquals(ValueType.ONE, card.getValue());
+  }
+
+
+
+
+
+}
