@@ -13,7 +13,6 @@ public class CardTest {
   @Test
   public void canGetSuit() {
     assertEquals(SuitType.HEARTS, card.getSuit());
-    System.out.println(card.getSuit());
   }
 
   @Test
