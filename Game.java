@@ -3,7 +3,6 @@ import java.util.*;
 public class Game {
 
   private ArrayList<Player> players;
-  private ArrayList<Card> cards
 
   public Game (){
     this.players = new ArrayList<Player>();
@@ -18,9 +17,7 @@ public class Game {
     this.players.add(player);
   }
 
-  // public void shuffleCards(Card cards) {
-    
-  // }
+
 
 
 
