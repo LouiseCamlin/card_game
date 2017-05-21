@@ -25,11 +25,7 @@ public class Game {
     return this.deck.size();
   }
 
-  public void buildADeck(Card card) {
-    for (int i = 0; i<11; i++){
-      this.deck.add(card);
-    }
-  }
+ 
 
 
 
