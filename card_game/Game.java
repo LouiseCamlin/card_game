@@ -5,11 +5,11 @@ import java.util.*;
 public class Game {
 
   private ArrayList<Player> players;
-  private ArrayList<Card> deck;
+  private ArrayList<Deck> deck;
 
   public Game (){
     this.players = new ArrayList<Player>();
-    this.deck = new ArrayList<Card>();
+    this.deck = new ArrayList<Deck>();
   }
 
   public int playerCount() {
@@ -25,7 +25,9 @@ public class Game {
     return this.deck.size();
   }
 
- 
+  public void addDeck(Deck deck) {
+    this.deck.add(deck);
+  }
 
 
 
