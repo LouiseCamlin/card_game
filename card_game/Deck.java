@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Deck{
   
-  private ArrayList<Card> deck = new ArrayList<Card>();
+  private ArrayList<Card> deck;
 
 
   public Deck() {
@@ -24,11 +24,23 @@ public class Deck{
     return this.deck.size();
   }
 
-  public void addCard(Card card) {
-    this.deck.add(card);
+  public ArrayList<Card> getDeck() {
+    return this.deck;
   }
 
+  public Card removeCard(){
+    if (deckCount() > 0 ) {
+      return deck.remove(0);
+    }
+    return null;
   }
+
+
+
+
+
+
+}
     
 
 

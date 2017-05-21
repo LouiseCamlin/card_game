@@ -7,6 +7,7 @@ public class GameTest {
   Game game;
   Player players;
   Deck deck;
+  Card card;
  
 
   @Before
@@ -27,11 +28,7 @@ public class GameTest {
     assertEquals(2, game.playerCount());
   }
 
-  @Test
-  public void canGetDeck() {
-    game.addDeck(deck);
-    assertEquals(1, game.deckSizeCount());
-  }
+  
 
   
 
