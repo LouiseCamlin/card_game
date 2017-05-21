@@ -1,3 +1,5 @@
+package card_game;
+
 public enum ValueType {
   ONE(1),
   TWO(2),

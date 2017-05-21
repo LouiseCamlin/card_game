@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 import org.junit.*;
+import card_game.*;
 
 
 public class CardTest {
