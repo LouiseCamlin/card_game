@@ -9,6 +9,7 @@ public class Game {
 
   public Game() {
     this.players = new ArrayList<Player>();
+
     Deck startingDeck = new Deck();
     deck = startingDeck.getDeck();
   }
@@ -26,7 +27,16 @@ public class Game {
     return this.deck.size();
   }
 
- 
+  public void dealCard(ArrayList<Player> players, ArrayList<Card> deck) {
+    for (Player player : players){
+      player.addCardToHand(deck.get(0));
+      deck.remove(0);
+    }
+  }
+
+  
+
+
 
 
 }

@@ -28,6 +28,13 @@ public class GameTest {
     assertEquals(2, game.playerCount());
   }
 
+  @Test
+  public void gameHasDeck() {
+    assertEquals(40, game.deckSizeCount());
+  }
+
+  
+
   
 
   

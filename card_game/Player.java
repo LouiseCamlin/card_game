@@ -24,6 +24,12 @@ public class Player {
     this.hand.add(card);
   }
 
+  public ArrayList<Card> getHand() {
+    return this.hand;
+  }
+
+  
+
 
 
 }
