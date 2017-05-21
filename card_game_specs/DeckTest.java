@@ -15,9 +15,13 @@ public class DeckTest {
   @Test
   public void canAddtoDeck(){
     deck.addCard(card);
-    assertEquals(1, deck.deckCount());
+    assertEquals(41, deck.deckCount());
   }
 
- 
+  @Test
+  public void haveADeck() {
+    assertEquals(40, deck.deckCount());
+  }
+
 
 }
